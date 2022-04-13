@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Attendance.aspx" />
     <Content Include="courses.aspx" />
     <Content Include="Registeration.aspx" />
     <Content Include="SignUp.aspx" />
@@ -74,6 +75,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attendance.aspx.cs">
+      <DependentUpon>Attendance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Attendance.aspx.designer.cs">
+      <DependentUpon>Attendance.aspx</DependentUpon>
+    </Compile>
     <Compile Include="courses.aspx.cs">
       <DependentUpon>courses.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
