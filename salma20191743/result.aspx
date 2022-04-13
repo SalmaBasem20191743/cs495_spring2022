@@ -125,7 +125,7 @@
             </tr>
             <tr>
                 <td>Total GPA:</td>
-                <td>&nbsp;</td>
+                <td>3.7</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -133,7 +133,7 @@
             </tr>
             <tr>
                 <td>CGPA:</td>
-                <td>&nbsp;</td>
+                <td>3.5</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
