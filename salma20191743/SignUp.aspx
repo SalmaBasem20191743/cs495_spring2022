@@ -35,17 +35,21 @@
         <div>
             <table class="auto-style1">
                 <tr>
-                    <td class="auto-style2" colspan="3">SIGN UP </td>
+                    <td class="auto-style2" colspan="4">SIGN UP </td>
                 </tr>
                 <tr>
                     <td class="auto-style8" colspan="3">
                         <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Underline="True" ForeColor="#669999" Text="Please Fill Up  All the Required Items"></asp:Label>
 &nbsp;:</td>
+                    <td class="auto-style8">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style3">First Name:</td>
                     <td class="auto-style5">
                         <asp:TextBox ID="TXTBOX_FN" runat="server" Width="503px"></asp:TextBox>
+                    </td>
+                    <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TXTBOX_FN" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
@@ -55,12 +59,14 @@
                         <asp:TextBox ID="TXTBOX_LN" runat="server" Width="503px"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style3">Date of birth :</td>
                     <td class="auto-style5">
                         <asp:TextBox ID="TXTBOX_DOB" runat="server" Width="503px"></asp:TextBox>
                     </td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
@@ -71,6 +77,7 @@
                         <asp:RadioButton ID="RadioButton2" runat="server" Text="F" />
                     </td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style3">Phone Number:</td>
@@ -78,12 +85,14 @@
                         <asp:TextBox ID="TXTBOX_NUM" runat="server" Width="503px"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style3">Email Address:</td>
                     <td class="auto-style5">
                         <asp:TextBox ID="TXTBOX_Email" runat="server" Width="503px"></asp:TextBox>
                     </td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
@@ -104,12 +113,14 @@
                         <asp:TextBox ID="TXTBOX_UserName" runat="server" Width="503px"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
+                    <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style3">Password:</td>
                     <td class="auto-style5">
                         <asp:TextBox ID="TXTBOX_Pass" runat="server" Width="503px"></asp:TextBox>
                     </td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
@@ -118,15 +129,18 @@
                         <asp:TextBox ID="TXTBOX_RePass" runat="server" Width="503px"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style5">&nbsp;</td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
@@ -138,25 +152,31 @@
                     <td colspan="3">
                         <asp:Button ID="Button1" runat="server" BackColor="#CCCCCC" Font-Bold="True" Font-Names="Arial" Font-Size="Medium" ForeColor="#006666" Text="Submit" Width="192px" />
                     </td>
+                    <td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
                     <td class="auto-style5">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style4">&nbsp;</td>
+                    <td class="auto-style5">&nbsp;</td>
+                    <td>&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
             </table>
