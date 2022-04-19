@@ -22,7 +22,7 @@
             width: 301px;
         }
         .auto-style5 {
-            width: 651px;
+            width: 583px;
         }
         .auto-style8 {
             height: 3px;
@@ -33,7 +33,7 @@
             height: 26px;
         }
         .auto-style10 {
-            width: 651px;
+            width: 583px;
             height: 26px;
         }
         .auto-style11 {
@@ -44,7 +44,7 @@
             height: 23px;
         }
         .auto-style13 {
-            width: 651px;
+            width: 583px;
             height: 23px;
         }
     </style>
@@ -79,8 +79,9 @@
                 <tr>
                     <td class="auto-style3">Last Name:</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TXTBOX_LN" runat="server" Width="503px"></asp:TextBox>
+                        <asp:TextBox ID="TXTBOX_LN" runat="server" Width="503px"></asp:TextBox><br />
                     </td>
+                    <font face ="arial"|color ="#00FF00" size ="-1">Example:Ahmed or Abdel Rahman</font>
                     <td>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TXTBOX_LN" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                     </td>
@@ -119,8 +120,9 @@
                 <tr>
                     <td class="auto-style3">Email Address:</td>
                     <td class="auto-style5">
-                        <asp:TextBox ID="TXTBOX_Email" runat="server" Width="503px"></asp:TextBox>
+                        <asp:TextBox ID="TXTBOX_Email" runat="server" Width="503px"></asp:TextBox><br />
                     </td>
+                    <font face ="arial"|color ="#00FF00" size ="-1">Example:user@fue.edu.eg</font>
                     <td>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TXTBOX_Email" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                     </td>
@@ -148,7 +150,9 @@
                     <td>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TXTBOX_UserName" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="TXTBOX_UserName" ErrorMessage="at least 8 characters !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300" ValidationExpression="\w{8,}"></asp:RegularExpressionValidator>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style3">Password:</td>
@@ -158,7 +162,9 @@
                     <td>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TXTBOX_Pass" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="TXTBOX_Pass" ErrorMessage="between  8 and 12 characters !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300" ValidationExpression="\w{8,12}"></asp:RegularExpressionValidator>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style3">Retype Password:</td>
@@ -168,7 +174,9 @@
                     <td>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="TXTBOX_RePass" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TXTBOX_Pass" ControlToValidate="TXTBOX_RePass" ErrorMessage="Retype Password again  Correctly !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:CompareValidator>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
