@@ -16,7 +16,7 @@
             font-weight: bold;
         }
         .auto-style3 {
-            width: 402px;
+            width: 183px;
         }
     </style>
 </head>
@@ -33,7 +33,7 @@
             <tr>
                 <td class="auto-style3">UserName:</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="192px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -43,7 +43,7 @@
             <tr>
                 <td class="auto-style3">Password :</td>
                 <td>
-                    <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
+                    <asp:TextBox ID="TextBox2" runat="server" TextMode="Password" Width="189px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
