@@ -69,9 +69,16 @@
   <ItemGroup>
     <Content Include="Attendance.aspx" />
     <Content Include="courses.aspx" />
+    <Content Include="ShowSchedule.aspx" />
+    <Content Include="Login.aspx" />
     <Content Include="Registeration.aspx" />
+    <Content Include="result.aspx" />
+    <Content Include="schedule.aspx" />
     <Content Include="SignUp.aspx" />
+    <Content Include="signup2.aspx" />
+    <Content Include="StudentHome.aspx" />
     <Content Include="StudentProfile.aspx" />
+    <Content Include="UploadAssignmnet.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -89,6 +96,20 @@
     <Compile Include="courses.aspx.designer.cs">
       <DependentUpon>courses.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ShowSchedule.aspx.cs">
+      <DependentUpon>ShowSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowSchedule.aspx.designer.cs">
+      <DependentUpon>ShowSchedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registeration.aspx.cs">
       <DependentUpon>Registeration.aspx</DependentUpon>
@@ -97,6 +118,20 @@
     <Compile Include="Registeration.aspx.designer.cs">
       <DependentUpon>Registeration.aspx</DependentUpon>
     </Compile>
+    <Compile Include="result.aspx.cs">
+      <DependentUpon>result.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="result.aspx.designer.cs">
+      <DependentUpon>result.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="schedule.aspx.cs">
+      <DependentUpon>schedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="schedule.aspx.designer.cs">
+      <DependentUpon>schedule.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -104,12 +139,26 @@
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
     </Compile>
+    <Compile Include="StudentHome.aspx.cs">
+      <DependentUpon>StudentHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentHome.aspx.designer.cs">
+      <DependentUpon>StudentHome.aspx</DependentUpon>
+    </Compile>
     <Compile Include="StudentProfile.aspx.cs">
       <DependentUpon>StudentProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="StudentProfile.aspx.designer.cs">
       <DependentUpon>StudentProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadAssignmnet.aspx.cs">
+      <DependentUpon>UploadAssignmnet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UploadAssignmnet.aspx.designer.cs">
+      <DependentUpon>UploadAssignmnet.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
