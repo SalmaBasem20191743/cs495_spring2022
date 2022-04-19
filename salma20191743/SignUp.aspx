@@ -47,6 +47,9 @@
             width: 583px;
             height: 23px;
         }
+        .auto-style14 {
+            height: 23px;
+        }
     </style>
 </head>
 <body>
@@ -110,10 +113,11 @@
                 <tr>
                     <td class="auto-style9">Phone Number:</td>
                     <td class="auto-style10">
-                        <asp:TextBox ID="TXTBOX_NUM" runat="server" Width="503px"></asp:TextBox>
+                        <asp:TextBox ID="TXTBOX_NUM" runat="server" Width="503px"></asp:TextBox><br />
                     </td>
+                     <font face ="arial"|color ="#00FF00" size ="-1">Example:01221434537</font>
                     <td class="auto-style11">
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TXTBOX_NUM" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator6" runat="server" ControlToValidate="TXTBOX_Email" ErrorMessage="Invalid Phone Number!!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300" ValidationExpression="[0][1][0-2][0-24-9]\s\d{7}"></asp:RegularExpressionValidator>
                     </td>
                     <td class="auto-style11"></td>
                 </tr>
@@ -185,10 +189,10 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style12"></td>
+                    <td class="auto-style13"></td>
+                    <td class="auto-style14"></td>
+                    <td class="auto-style14"></td>
                 </tr>
                 <tr>
                     <td class="auto-style12"></td>

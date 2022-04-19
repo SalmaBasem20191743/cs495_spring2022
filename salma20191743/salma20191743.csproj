@@ -75,7 +75,6 @@
     <Content Include="result.aspx" />
     <Content Include="schedule.aspx" />
     <Content Include="SignUp.aspx" />
-    <Content Include="signup2.aspx" />
     <Content Include="StudentHome.aspx" />
     <Content Include="StudentProfile.aspx" />
     <Content Include="UploadAssignmnet.aspx" />
