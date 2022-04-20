@@ -33,10 +33,12 @@
             <tr>
                 <td class="auto-style2" colspan="2">Login</td>
                 <td class="auto-style2">&nbsp;</td>
+                <td class="auto-style2">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style4"></td>
                 <td class="auto-style5"></td>
+                <td class="auto-style5">&nbsp;</td>
                 <td class="auto-style5">&nbsp;</td>
             </tr>
             <tr>
@@ -46,10 +48,14 @@
                 </td>
                     <td>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="Text_userN" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
+                    &nbsp;</td>
+                    <td>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="Text_userN" ErrorMessage="at least 8 characters !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300" ValidationExpression="\w{8,}"></asp:RegularExpressionValidator>
                     </td>
             </tr>
             <tr>
                 <td class="auto-style3">&nbsp;</td>
+                <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
@@ -61,14 +67,19 @@
                     <td>
                         <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="Text_USERpass" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                     </td>
+                    <td>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="Text_USERpass" ErrorMessage="between  8 and 12 characters !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300" ValidationExpression="\w{8,12}"></asp:RegularExpressionValidator>
+                    </td>
             </tr>
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style3">&nbsp;</td>
+                <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
@@ -78,14 +89,17 @@
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style3">&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style3">&nbsp;</td>
+                <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
