@@ -43,6 +43,17 @@
         .auto-style12 {
             height: 29px;
         }
+        .auto-style13 {
+            width: 190px;
+            height: 23px;
+        }
+        .auto-style14 {
+            width: 693px;
+            height: 23px;
+        }
+        .auto-style15 {
+            height: 23px;
+        }
     </style>
 </head>
 <body>
@@ -67,16 +78,20 @@
                 <tr>
                     <td class="auto-style5">Email Address:</td>
                     <td class="auto-style6">
-                        <asp:TextBox ID="TextBox1" runat="server" CssClass="auto-style9" Height="23px" Width="284px"></asp:TextBox>
+                        <asp:TextBox ID="TxtB_EMAIL" runat="server" CssClass="auto-style9" Height="23px" Width="284px"></asp:TextBox>
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TxtB_EMAIL" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style5">Phone number:</td>
                     <td class="auto-style6">
-                        <asp:TextBox ID="TextBox2" runat="server" Height="26px" Width="290px"></asp:TextBox>
+                        <asp:TextBox ID="TextB_PHONE" runat="server" Height="26px" Width="290px"></asp:TextBox>
                     </td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextB_PHONE" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
@@ -97,14 +112,15 @@
                 </tr>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td>
+                        <asp:Table ID="Table2" runat="server" Height="61px" Width="195px">
+                        </asp:Table>
+                    </td>
                 </tr>
                 <tr>
                     <td class="auto-style10">&nbsp;</td>
                     <td class="auto-style11">
-                        <asp:Table ID="Table2" runat="server">
-                        </asp:Table>
-                    </td>
+                        &nbsp;</td>
                     <td class="auto-style12"></td>
                 </tr>
                 <tr>
@@ -113,9 +129,9 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style4">&nbsp;</td>
-                    <td class="auto-style6">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style13"></td>
+                    <td class="auto-style14"></td>
+                    <td class="auto-style15"></td>
                 </tr>
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
