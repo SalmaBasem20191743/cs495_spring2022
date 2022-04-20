@@ -130,6 +130,14 @@
                                 <asp:TableCell runat="server">B2.2</asp:TableCell>
                                 <asp:TableCell runat="server">Dr.Howeeda</asp:TableCell>
                             </asp:TableRow>
+                            <asp:TableRow runat="server" BorderStyle="Solid">
+                                <asp:TableCell runat="server">Tuesday</asp:TableCell>
+                                <asp:TableCell runat="server">Computer architecture</asp:TableCell>
+                                <asp:TableCell runat="server">11:00-1:00</asp:TableCell>
+                                <asp:TableCell runat="server">B</asp:TableCell>
+                                <asp:TableCell runat="server">B3.2</asp:TableCell>
+                                <asp:TableCell runat="server">Dr.Khaled</asp:TableCell>
+                            </asp:TableRow>
                         </asp:Table>
                     </td>
                 </tr>

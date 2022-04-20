@@ -68,12 +68,12 @@
                     <td class="auto-style12">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style10" colspan="2">Day</td>
-                    <td class="auto-style2">Time</td>
-                    <td class="auto-style2">Course</td>
-                    <td class="auto-style2">Group</td>
-                    <td class="auto-style2">Hall</td>
-                    <td class="auto-style4">Instructor Name</td>
+                    <td class="auto-style10" colspan="2">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style9" colspan="2">&nbsp;</td>
@@ -84,12 +84,50 @@
                     <td class="auto-style5">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style10" colspan="2">Monday</td>
-                    <td class="auto-style2">9:00 - 11:00</td>
-                    <td class="auto-style2">Operating System 2</td>
-                    <td>B</td>
-                    <td>B3.5</td>
-                    <td class="auto-style4">Dr.Howeeda</td>
+                    <td class="auto-style10" colspan="2">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="7">
+                        <asp:Table ID="Table2" runat="server" Height="237px" Width="789px" BorderColor="#333333" BorderStyle="Solid">
+                            <asp:TableRow runat="server" BorderStyle="Solid">
+                                <asp:TableCell runat="server">Day</asp:TableCell>
+                                <asp:TableCell runat="server">Course Name</asp:TableCell>
+                                <asp:TableCell runat="server">Time</asp:TableCell>
+                                <asp:TableCell runat="server">Group</asp:TableCell>
+                                <asp:TableCell runat="server">Hall</asp:TableCell>
+                                <asp:TableCell runat="server">Instructor Name</asp:TableCell>
+                            </asp:TableRow>
+                            <asp:TableRow runat="server" BorderStyle="Solid">
+                                <asp:TableCell runat="server">Monday</asp:TableCell>
+                                <asp:TableCell runat="server">OS 2</asp:TableCell>
+                                <asp:TableCell runat="server">9:00 - 11:00</asp:TableCell>
+                                <asp:TableCell runat="server">B</asp:TableCell>
+                                <asp:TableCell runat="server">B2.2</asp:TableCell>
+                                <asp:TableCell runat="server">Dr.Howeeda</asp:TableCell>
+                            </asp:TableRow>
+                            <asp:TableRow runat="server" BorderStyle="Solid">
+                                <asp:TableCell runat="server">Tuesday</asp:TableCell>
+                                <asp:TableCell runat="server">Computer architecture</asp:TableCell>
+                                <asp:TableCell runat="server">11:00-1:00</asp:TableCell>
+                                <asp:TableCell runat="server">B</asp:TableCell>
+                                <asp:TableCell runat="server">B3.2</asp:TableCell>
+                                <asp:TableCell runat="server">Dr.Khaled</asp:TableCell>
+                            </asp:TableRow>
+                        </asp:Table>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style10" colspan="2">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td class="auto-style4">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style9" colspan="2">&nbsp;</td>
@@ -100,28 +138,12 @@
                     <td class="auto-style5">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style10" colspan="2">Tuesday</td>
-                    <td class="auto-style2">11:00 - 1:00</td>
-                    <td class="auto-style2">Algorithm</td>
-                    <td>B</td>
-                    <td>B2.2</td>
-                    <td class="auto-style4">Dr.Khaled</td>
-                </tr>
-                <tr>
-                    <td class="auto-style9" colspan="2">&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
-                    <td class="auto-style5">&nbsp;</td>
-                </tr>
-                <tr>
-                    <td class="auto-style10" colspan="2">Wednesday</td>
-                    <td class="auto-style7">1:00 - 3:00</td>
-                    <td class="auto-style7">Computer graphics</td>
-                    <td class="auto-style3">B</td>
-                    <td class="auto-style3">B1.2</td>
-                    <td class="auto-style8">Dr.Heba</td>
+                    <td class="auto-style10" colspan="2">&nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style3">&nbsp;</td>
+                    <td class="auto-style8">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style11" colspan="2">&nbsp;</td>
