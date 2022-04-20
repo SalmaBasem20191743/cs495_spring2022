@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace salma20191743
 {
-    public partial class StudentHome : System.Web.UI.Page
+    public partial class EditStudentProfile : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

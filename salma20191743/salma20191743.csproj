@@ -69,13 +69,15 @@
   <ItemGroup>
     <Content Include="Attendance.aspx" />
     <Content Include="courses.aspx" />
+    <Content Include="EditStudentProfile.aspx" />
+    <Content Include="StudentHomePage.html" />
     <Content Include="ShowSchedule.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Registeration.aspx" />
     <Content Include="result.aspx" />
     <Content Include="schedule.aspx" />
     <Content Include="SignUp.aspx" />
-    <Content Include="StudentHome.aspx" />
+    <Content Include="Home.html" />
     <Content Include="StudentProfile.aspx" />
     <Content Include="UploadAssignmnet.aspx" />
     <Content Include="Web.config" />
@@ -94,6 +96,13 @@
     </Compile>
     <Compile Include="courses.aspx.designer.cs">
       <DependentUpon>courses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditStudentProfile.aspx.cs">
+      <DependentUpon>EditStudentProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditStudentProfile.aspx.designer.cs">
+      <DependentUpon>EditStudentProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="ShowSchedule.aspx.cs">
       <DependentUpon>ShowSchedule.aspx</DependentUpon>
@@ -137,13 +146,6 @@
     </Compile>
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="StudentHome.aspx.cs">
-      <DependentUpon>StudentHome.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="StudentHome.aspx.designer.cs">
-      <DependentUpon>StudentHome.aspx</DependentUpon>
     </Compile>
     <Compile Include="StudentProfile.aspx.cs">
       <DependentUpon>StudentProfile.aspx</DependentUpon>
