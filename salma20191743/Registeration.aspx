@@ -84,45 +84,77 @@
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style7">Theory Of Computation</td>
+                    <td class="auto-style7">
+                        <asp:Table ID="Table4" runat="server" Height="201px" Width="508px">
+                            <asp:TableRow runat="server" BorderStyle="Solid">
+                                <asp:TableCell runat="server">Course Name</asp:TableCell>
+                                <asp:TableCell runat="server">Type</asp:TableCell>
+                            </asp:TableRow>
+                            <asp:TableRow runat="server" BorderStyle="Solid">
+                                <asp:TableCell runat="server">Theory of Computation</asp:TableCell>
+                                <asp:TableCell runat="server">Mandatory</asp:TableCell>
+                            </asp:TableRow>
+                            <asp:TableRow runat="server" BorderStyle="Solid">
+                                <asp:TableCell runat="server">Scientific Thinking</asp:TableCell>
+                                <asp:TableCell runat="server">Elective</asp:TableCell>
+                            </asp:TableRow>
+                            <asp:TableRow runat="server" BorderStyle="Solid">
+                                <asp:TableCell runat="server">Artifical Intelligence</asp:TableCell>
+                                <asp:TableCell runat="server">Mandatory</asp:TableCell>
+                            </asp:TableRow>
+                            <asp:TableRow runat="server" BorderStyle="Solid">
+                                <asp:TableCell runat="server">OS 1</asp:TableCell>
+                                <asp:TableCell runat="server">Mandatory</asp:TableCell>
+                            </asp:TableRow>
+                        </asp:Table>
+                    </td>
                     <td class="auto-style8">
-                        <asp:Label ID="Label5" runat="server" Font-Size="Small" ForeColor="Silver" Text="mandatory"></asp:Label>
-                    </td>
+                        &nbsp;
+                        <br />
+&nbsp;
+                        <br />
+&nbsp;&nbsp;
+                        <asp:Button ID="Button7" runat="server" Font-Bold="True" ForeColor="#666666" Text="ADD" Width="74px" />
+                        <br />
+&nbsp;&nbsp;
+                        <asp:Button ID="Button8" runat="server" Font-Bold="True" ForeColor="#666666" Text="ADD" Width="74px" />
+                        <br />
+&nbsp;&nbsp;
+                        <asp:Button ID="Button9" runat="server" Font-Bold="True" ForeColor="#666666" Text="ADD" Width="74px" />
+                        <br />
+&nbsp;&nbsp;
+                        <asp:Button ID="Button10" runat="server" Font-Bold="True" ForeColor="#666666" Text="ADD" Width="74px" />
+                        &nbsp;</td>
                     <td class="auto-style2">
-                        <asp:Button ID="Button1" runat="server" Font-Bold="True" ForeColor="#666666" Text="ADD" Width="74px" />
-                    </td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style7">Scientific Thinking</td>
-                    <td class="auto-style9">elective</td>
+                    <td class="auto-style7">&nbsp;</td>
+                    <td class="auto-style9">&nbsp;</td>
                     <td class="auto-style2">
-                        <asp:Button ID="Button2" runat="server" Font-Bold="True" ForeColor="#666666" Text="ADD" Width="74px" />
-                    </td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style7">Artificial intelligence</td>
+                    <td class="auto-style7">&nbsp;</td>
                     <td class="auto-style6">
-                        <asp:Label ID="Label7" runat="server" Font-Size="Small" ForeColor="Silver" Text="mandatory"></asp:Label>
-                    </td>
+                        &nbsp;</td>
                     <td class="auto-style2">
-                        <asp:Button ID="Button3" runat="server" Font-Bold="True" ForeColor="#666666" Text="ADD" Width="74px" />
-                    </td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style7">Operating System1</td>
+                    <td class="auto-style7">&nbsp;</td>
                     <td class="auto-style6">
-                        <asp:Label ID="Label8" runat="server" Font-Size="Small" ForeColor="Silver" Text="mandatory"></asp:Label>
-                    </td>
+                        &nbsp;</td>
                     <td class="auto-style2">
-                        <asp:Button ID="Button4" runat="server" Font-Bold="True" ForeColor="#666666" Text="ADD" Width="74px" />
-                    </td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style7">Human Rights</td>
-                    <td class="auto-style9">elective</td>
-                    <td class="auto-style2">
-                        <asp:Button ID="Button5" runat="server" Font-Bold="True" ForeColor="#666666" Text="ADD" Width="74px" />
+                    <td class="auto-style7">
+                        <asp:Button ID="Button6" runat="server" BackColor="#003366" Font-Bold="True" Font-Names="Arial" ForeColor="White" Text="Submit" Width="216px" Height="31px" />
                     </td>
+                    <td class="auto-style9">&nbsp;</td>
+                    <td class="auto-style2">
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
@@ -141,8 +173,7 @@
                 </tr>
                 <tr>
                     <td colspan="3">
-                        <asp:Button ID="Button6" runat="server" BackColor="#003366" Font-Bold="True" Font-Names="Arial" ForeColor="White" Text="Submit" Width="152px" />
-                    </td>
+                        &nbsp;</td>
                 </tr>
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
