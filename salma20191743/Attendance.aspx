@@ -19,6 +19,9 @@
             width: 227px;
             font-family: Arial;
         }
+        .auto-style5 {
+            margin-right: 0px;
+        }
     </style>
 </head>
 <body>
@@ -74,38 +77,6 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style2">Date</td>
-                <td class="auto-style2">&nbsp;Attendence</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">14/3/2021</td>
-                <td class="auto-style2">Attended</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">21/3/2021</td>
-                <td class="auto-style2">Not attended</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style2">1/4/2021</td>
-                <td class="auto-style2">Attended</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
@@ -124,9 +95,26 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style2">&nbsp;</td>
-                <td class="auto-style3">&nbsp;</td>
-                <td>&nbsp;</td>
+                <td colspan="3">
+                    <asp:Table ID="Table1" runat="server" BorderStyle="Solid" CssClass="auto-style5" Height="200px" Width="489px">
+                        <asp:TableRow runat="server" BorderStyle="Solid">
+                            <asp:TableCell runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Underline="True" ForeColor="#333333">Date</asp:TableCell>
+                            <asp:TableCell runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Underline="True" ForeColor="#333333">Attendance</asp:TableCell>
+                        </asp:TableRow>
+                        <asp:TableRow runat="server" BorderStyle="Solid">
+                            <asp:TableCell runat="server">14/3/2021</asp:TableCell>
+                            <asp:TableCell runat="server">Attended</asp:TableCell>
+                        </asp:TableRow>
+                        <asp:TableRow runat="server" BorderStyle="Solid">
+                            <asp:TableCell runat="server">21/3/2021</asp:TableCell>
+                            <asp:TableCell runat="server">Not Attended</asp:TableCell>
+                        </asp:TableRow>
+                        <asp:TableRow runat="server" BorderStyle="Solid">
+                            <asp:TableCell runat="server">1/4/2021</asp:TableCell>
+                            <asp:TableCell runat="server">Attended</asp:TableCell>
+                        </asp:TableRow>
+                    </asp:Table>
+                </td>
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;</td>

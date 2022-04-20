@@ -85,8 +85,8 @@
                 </tr>
                 <tr>
                     <td class="auto-style7">
-                        <asp:Table ID="Table4" runat="server" Height="201px" Width="508px">
-                            <asp:TableRow runat="server" BorderStyle="Solid">
+                        <asp:Table ID="Table4" runat="server" GridLines="Both" Height="201px" Width="508px">
+                            <asp:TableRow runat="server" BorderStyle="Solid" Font-Bold="True" Font-Names="Arial Black" Font-Size="Medium" Font-Underline="True" ForeColor="#666666">
                                 <asp:TableCell runat="server">Course Name</asp:TableCell>
                                 <asp:TableCell runat="server">Type</asp:TableCell>
                             </asp:TableRow>
