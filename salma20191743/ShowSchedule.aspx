@@ -113,7 +113,23 @@
                 <tr>
                     <td class="auto-style4">&nbsp;</td>
                     <td>
-                        <asp:Table ID="Table2" runat="server" Height="61px" Width="195px">
+                        <asp:Table ID="Table2" runat="server" Height="130px" Width="737px" BorderColor="#333333" BorderStyle="Solid">
+                            <asp:TableRow runat="server" BorderStyle="Solid">
+                                <asp:TableCell runat="server">Day</asp:TableCell>
+                                <asp:TableCell runat="server">Course Name</asp:TableCell>
+                                <asp:TableCell runat="server">Time</asp:TableCell>
+                                <asp:TableCell runat="server">Group</asp:TableCell>
+                                <asp:TableCell runat="server">Hall</asp:TableCell>
+                                <asp:TableCell runat="server">Instructor Name</asp:TableCell>
+                            </asp:TableRow>
+                            <asp:TableRow runat="server" BorderStyle="Solid">
+                                <asp:TableCell runat="server">Monday</asp:TableCell>
+                                <asp:TableCell runat="server">OS 2</asp:TableCell>
+                                <asp:TableCell runat="server">9:00 - 11:00</asp:TableCell>
+                                <asp:TableCell runat="server">B</asp:TableCell>
+                                <asp:TableCell runat="server">B2.2</asp:TableCell>
+                                <asp:TableCell runat="server">Dr.Howeeda</asp:TableCell>
+                            </asp:TableRow>
                         </asp:Table>
                     </td>
                 </tr>
