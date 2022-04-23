@@ -1,23 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="salma20191743.WebForm1" %>
-<%@ Import Namespace="System.Data.SqlClient"%>
 <!DOCTYPE html>
-<%--<script runat="server">
-    protected void btn_submit_Click(object sender, EventArgs e)
-    {
-        //1-create connection object
-        SqlConnection conn = new SqlConnection();
-        conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|App_Data.mdf;Integrated Security=True;Connect Timeout=30";
-      
-        
-        
-        
-        conn.Open();
-        conn.Close();
 
-        lblMsg.Text = " the connection object  works correctly !!";
-    }
-
-</script>--%>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -115,7 +98,7 @@
                     <asp:Label ID="Label13" runat="server" Text="Phone Number:"></asp:Label>
                 </td>
                 <td>
-                    <asp:TextBox ID="TXT_NUM" runat="server" Width="255px"></asp:TextBox>
+                    <asp:TextBox ID="TXT_NUM" runat="server" Width="255px" Height="22px"></asp:TextBox>
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
