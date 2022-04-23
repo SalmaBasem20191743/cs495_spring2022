@@ -19,10 +19,10 @@ namespace salma20191743
         {
             SqlConnection conn = new SqlConnection();
 
-            conn.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|App_Data.mdf;Integrated Security=True;Connect Timeout=30";
+            conn.ConnectionString = //"Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|App_Data.mdf;Integrated Security=True;Connect Timeout=30";
 
             //Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\cs495_spring2022\cs495_spring2022\salma20191743\App_Data.mdf;Integrated Security=True;Connect Timeout=30
-
+           " Data Source = (LocalDB)\\MSSQLLocalDB; AttachDbFilename =|DataDirectory|App_Data.mdf; Integrated Security = True; Connect Timeout = 30";
             //2-create insert statement
             string strInsert = String.Format("INSERT INTO Member VALUES('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}'", TXT_F.Text, TXT_L.Text, TXT_DOB.Text, rbl_Gender.SelectedValue, TXT_NUM.Text, TXT_EMAIL.Text, DropDownList1.SelectedValue,TXT_USERNAME.Text, TXT_PASS.Text);
 
