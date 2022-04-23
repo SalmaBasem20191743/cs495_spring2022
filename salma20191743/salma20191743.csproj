@@ -77,11 +77,11 @@
     <Content Include="Registeration.aspx" />
     <Content Include="result.aspx" />
     <Content Include="schedule.aspx" />
-    <Content Include="SignUp.aspx" />
     <Content Include="Home.html" />
     <Content Include="StudentProfile.aspx" />
     <Content Include="UploadAssignmnet.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ApproveSchedule.aspx.cs">
@@ -148,13 +148,6 @@
     <Compile Include="schedule.aspx.designer.cs">
       <DependentUpon>schedule.aspx</DependentUpon>
     </Compile>
-    <Compile Include="SignUp.aspx.cs">
-      <DependentUpon>SignUp.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="SignUp.aspx.designer.cs">
-      <DependentUpon>SignUp.aspx</DependentUpon>
-    </Compile>
     <Compile Include="StudentProfile.aspx.cs">
       <DependentUpon>StudentProfile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -168,6 +161,13 @@
     </Compile>
     <Compile Include="UploadAssignmnet.aspx.designer.cs">
       <DependentUpon>UploadAssignmnet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
