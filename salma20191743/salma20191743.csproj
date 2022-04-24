@@ -68,6 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ApproveSchedule.aspx" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
     <Content Include="Attendance.aspx" />
     <Content Include="courses.aspx" />
     <Content Include="EditStudentProfile.aspx" />
