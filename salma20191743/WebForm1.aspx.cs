@@ -15,6 +15,11 @@ namespace salma20191743
 
         }
 
+        protected void btn_submit_Click(object sender, EventArgs e)
+        {
+
+        }
+
         //protected void btn_submit_Click(object sender, EventArgs e)
         //{
         //    SqlConnection conn = new SqlConnection();

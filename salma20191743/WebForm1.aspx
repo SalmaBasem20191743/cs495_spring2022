@@ -33,7 +33,7 @@
         // 6- close database
         conn.Close();
 
-        lblMsg.Text = " welcome" + TXT_F.Text + "the Connection object works correctly !!";
+        lblMsg.Text = " welcome" + "  " +TXT_F.Text + "the Connection object works correctly !!";
     }
 </script>
 
