@@ -130,7 +130,7 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style5">&nbsp;<asp:Label ID="Label12" runat="server" Text="Date of Birth:"></asp:Label>
+                <td class="auto-style5"><asp:Label ID="Label12" runat="server" Text="Date of Birth:"></asp:Label>
                 </td>
                 <td>
                     <asp:TextBox ID="TXT_DOB" runat="server" Width="255px"></asp:TextBox>
