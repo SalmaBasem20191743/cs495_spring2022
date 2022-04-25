@@ -1,7 +1,7 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm1.aspx.cs" Inherits="salma20191743.WebForm1" %>
 <%@ Import Namespace="System.Data.SqlClient" %>
 <!DOCTYPE html>
-<script runat="server">
+<%--<script runat="server">
     protected void btn_submit_Click(object sender, EventArgs e)
     {
         SqlConnection conn = new SqlConnection();
@@ -21,9 +21,9 @@
         //    +TXTBOX_Email.Text+"','"
         //    +DropLcountry.SelectedValue+"','"
         //    +TXTBOX_UserName.Text+"','"
-        //    +TXTBOX_Pass.Text+"')";
+        //    +TXTBOX_Pass.Text+"')";--%>
 
-        //3-create sql command 
+ <%--       //3-create sql command 
         SqlCommand CMDInsert = new SqlCommand(strInsert, conn);
 
         //4- open database  
@@ -33,9 +33,9 @@
         // 6- close database
         conn.Close();
 
-        lblMsg.Text = " welcome" + "  " +TXT_F.Text + "the Connection object works correctly !!";
+        lblMsg.Text = " welcome" + "  " +TXT_F.Text + "  the Connection object works correctly !!";
     }
-</script>
+</script>--%>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -72,6 +72,17 @@
         .auto-style7 {
             height: 23px;
         }
+        .auto-style8 {
+            width: 203px;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: medium;
+            color: #333333;
+            height: 26px;
+        }
+        .auto-style9 {
+            height: 26px;
+        }
     </style>
 </head>
 <body style="height: 44px">
@@ -93,6 +104,12 @@
                 <td>
                     <asp:TextBox ID="TXT_F" runat="server" Width="255px"></asp:TextBox>
                 </td>
+                 <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TXT_F" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
+                    </td>
+                    <td>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TXT_F" ErrorMessage="Invalid First Name Format !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300" ValidationExpression="([A-Z][a-z]*\s[A-Z][a-z]*)|([A-Z][a-z]*)"></asp:RegularExpressionValidator>
+                    </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
@@ -103,6 +120,12 @@
                 <td>
                     <asp:TextBox ID="TXT_L" runat="server" Width="255px"></asp:TextBox>
                 </td>
+                 <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TXT_L" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
+                    </td>
+                    <td>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator2" runat="server" ControlToValidate="TXT_L" ErrorMessage="Invalid Last Name Format !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300" ValidationExpression="([A-Z][a-z]*\s[A-Z][a-z]*)|([A-Z][a-z]*)"></asp:RegularExpressionValidator>
+                    </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
@@ -135,25 +158,35 @@
                 <td>
                     <asp:TextBox ID="TXT_NUM" runat="server" Width="255px" Height="22px"></asp:TextBox>
                 </td>
+                 <td class="auto-style11">
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator6" runat="server" ControlToValidate="TXT_NUM" ErrorMessage="Invalid Phone Number!!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300" ValidationExpression="[0][1][0-2][0-24-9]\s\d{7}"></asp:RegularExpressionValidator>
+                    </td>
+                    <td class="auto-style11"></td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style5">
+                <td class="auto-style8">
                     <asp:Label ID="Label14" runat="server" Text="Email Address:"></asp:Label>
                 </td>
-                <td>
+                <td class="auto-style9">
                     <asp:TextBox ID="TXT_EMAIL" runat="server" Width="255px"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                 <td class="auto-style9">
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="TXT_EMAIL" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
+                    </td>
+                    <td class="auto-style9">
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator3" runat="server" ControlToValidate="TXT_EMAIL" ErrorMessage="Invalid Email Address Format !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
+                    </td>
+                <td class="auto-style9"></td>
+                <td class="auto-style9"></td>
             </tr>
             <tr>
                 <td class="auto-style6">
                     <asp:Label ID="Label15" runat="server" Text="Country:"></asp:Label>
                 </td>
                 <td class="auto-style7">
-                    <asp:DropDownList ID="DropDownList1" runat="server">
+                    <asp:DropDownList ID="DropDownList1" runat="server" Height="16px" Width="261px">
                         <asp:ListItem></asp:ListItem>
                         <asp:ListItem>Egypt</asp:ListItem>
                         <asp:ListItem>Jordan</asp:ListItem>
@@ -171,6 +204,12 @@
                 <td>
                     <asp:TextBox ID="TXT_USERNAME" runat="server" Width="255px"></asp:TextBox>
                 </td>
+                <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TXT_USERNAME" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
+                    </td>
+                    <td>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator4" runat="server" ControlToValidate="TXT_USERNAME" ErrorMessage="at least 8 characters !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300" ValidationExpression="\w{8,}"></asp:RegularExpressionValidator>
+                    </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
@@ -181,18 +220,30 @@
                 <td>
                     <asp:TextBox ID="TXT_PASS" runat="server" TextMode="Password" Width="255px"></asp:TextBox>
                 </td>
+                 <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ControlToValidate="TXT_PASS" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
+                    </td>
+                    <td>
+                        <asp:RegularExpressionValidator ID="RegularExpressionValidator5" runat="server" ControlToValidate="TXT_PASS" ErrorMessage="between  8 and 12 characters !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300" ValidationExpression="\w{8,12}"></asp:RegularExpressionValidator>
+                    </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style5">
+                <td class="auto-style8">
                     <asp:Label ID="Label18" runat="server" Text="Retype Password:"></asp:Label>
                 </td>
-                <td>
+                <td class="auto-style9">
                     <asp:TextBox ID="TXT_REPASS" runat="server" TextMode="Password" Width="255px"></asp:TextBox>
                 </td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style9">
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator7" runat="server" ControlToValidate="TXT_REPASS" ErrorMessage="Required Field !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:RequiredFieldValidator>
+                    </td>
+                    <td class="auto-style9">
+                        <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="TXT_PASS" ControlToValidate="TXT_REPASS" ErrorMessage="Retype Password again  Correctly !!" Font-Bold="True" Font-Names="Arial Black" Font-Size="Small" ForeColor="#FF3300"></asp:CompareValidator>
+                    </td>
+                <td class="auto-style9"></td>
+                <td class="auto-style9"></td>
             </tr>
             <tr>
                 <td class="auto-style2">&nbsp;</td>
