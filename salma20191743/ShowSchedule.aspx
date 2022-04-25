@@ -56,7 +56,7 @@
         }
     </style>
 </head>
-<body>
+<body  bgcolor=" beige">
     <form id="form1" runat="server">
         <div>
             <table class="auto-style1">

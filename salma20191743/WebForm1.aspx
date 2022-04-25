@@ -85,7 +85,7 @@
         }
     </style>
 </head>
-<body style="height: 44px">
+<body  bgcolor=" beige" style="height: 44px">
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Size="Large" ForeColor="#009999" Text="Sign Up"></asp:Label>
