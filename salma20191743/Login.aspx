@@ -25,6 +25,13 @@
         .auto-style5 {
             height: 34px;
         }
+        .auto-style6 {
+            width: 183px;
+            height: 24px;
+        }
+        .auto-style7 {
+            height: 24px;
+        }
     </style>
 </head>
 <body bgcolor=" beige">
@@ -42,7 +49,9 @@
                 <td class="auto-style5">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">UserName:</td>
+                <td class="auto-style3">
+                    <asp:Label ID="Label2" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Underline="True" Text="User Name:"></asp:Label>
+                </td>
                 <td>
                     <asp:TextBox ID="Text_userN" runat="server" Width="192px"></asp:TextBox>
                 </td>
@@ -60,7 +69,9 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style3">Password :</td>
+                <td class="auto-style3">
+                    <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Names="Arial Black" Font-Underline="True" Text="Password:"></asp:Label>
+                </td>
                 <td>
                     <asp:TextBox ID="Text_USERpass" runat="server" TextMode="Password" Width="189px"></asp:TextBox>
                 </td>
@@ -72,10 +83,10 @@
                     </td>
             </tr>
             <tr>
-                <td class="auto-style3">&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td class="auto-style6"></td>
+                <td class="auto-style7"></td>
+                <td class="auto-style7"></td>
+                <td class="auto-style7"></td>
             </tr>
             <tr>
                 <td class="auto-style3">&nbsp;</td>
@@ -85,7 +96,7 @@
             </tr>
             <tr>
                 <td class="auto-style3">
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" Width="86px" />
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Submit" Width="171px" Font-Bold="True" Font-Names="Arial Black" Font-Size="Large" Height="48px" />
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
