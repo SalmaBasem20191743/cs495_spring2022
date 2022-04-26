@@ -61,7 +61,7 @@
                 <tr>
                     <td class="auto-style3">Phone Number : </td>
                     <td class="auto-style6">
-                        <asp:TextBox ID="TextBox2" runat="server" Width="327px"></asp:TextBox>
+                        <asp:TextBox ID="TextBox2" runat="server" Width="332px"></asp:TextBox>
                     </td>
                     <td>&nbsp;</td>
                 </tr>
