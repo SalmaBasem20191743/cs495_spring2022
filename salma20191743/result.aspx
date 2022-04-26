@@ -76,12 +76,22 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>Course Name</td>
-                <td>Pass/Fail</td>
-                <td>Points</td>
-                <td>Grade</td>
-                <td>Total Credit Hours</td>
-                <td>Earned Credit Hours</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:Button ID="Button1" runat="server" BackColor="#CCCCCC" Font-Bold="True" Font-Names="Arial Black" Height="44px" Text="Show Result" Width="152px" />
+                </td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
@@ -92,12 +102,20 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>Operating System2</td>
-                <td>Pass</td>
-                <td>11.5</td>
-                <td>A</td>
-                <td>3</td>
-                <td>3</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
@@ -108,14 +126,6 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>Computer Graphics</td>
-                <td>Pass</td>
-                <td>12</td>
-                <td>A-</td>
-                <td>3</td>
-                <td>3</td>
-            </tr>
-            <tr>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -124,16 +134,8 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>Total GPA:</td>
-                <td>3.7</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td>CGPA:</td>
-                <td>3.5</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>

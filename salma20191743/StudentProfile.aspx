@@ -17,7 +17,7 @@
         }
     </style>
 </head>
-<body  bgcolor=" beige">
+<body  bgcolor = "beige" bgcolo>
     <form id="form1" runat="server">
         <div>
             <table class="auto-style1">
@@ -102,7 +102,7 @@
                 <tr>
                     <td class="auto-style2">Faculty:</td>
                     <td class="auto-style3">
-                        <asp:DropDownList ID="DropDownList3" runat="server" Height="16px" Width="125px">
+                        <asp:DropDownList ID="DropDownList3" runat="server" Height="16px" Width="129px">
                             <asp:ListItem></asp:ListItem>
                             <asp:ListItem>Computer Science</asp:ListItem>
                             <asp:ListItem>dentistry</asp:ListItem>
