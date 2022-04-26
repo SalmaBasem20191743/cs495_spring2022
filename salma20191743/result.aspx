@@ -85,7 +85,7 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="Button1" runat="server" BackColor="#CCCCCC" Font-Bold="True" Font-Names="Arial Black" Height="44px" Text="Show Result" Width="152px" />
+                    <asp:Button ID="Button1" runat="server" BackColor="#CCCCCC" Font-Bold="True" Font-Names="Arial Black" Height="44px" OnClick="Button1_Click" Text="Show Result" Width="152px" />
                 </td>
                 <td>&nbsp;</td>
                 <td>&nbsp;</td>
@@ -152,7 +152,7 @@
             <tr>
                 <td>&nbsp;</td>
                 <td>
-                    <asp:Table ID="Table1" runat="server">
+                    <asp:Table ID="Table1" runat="server" Height="27px" Width="350px">
                     </asp:Table>
                 </td>
                 <td>&nbsp;</td>
