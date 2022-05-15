@@ -67,15 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="aaaaaasss.html" />
     <Content Include="ApproveSchedule.aspx" />
     <Content Include="App_Data\Database1.mdf" />
     <Content Include="App_Data\Database1_log.ldf">
       <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="Attendance.aspx" />
+    <Content Include="ComputerArchitecture.aspx" />
     <Content Include="courses.aspx" />
     <Content Include="EditStudentProfile.aspx" />
+    <Content Include="OS2.aspx" />
     <Content Include="StudentHomePage.html" />
     <Content Include="ShowSchedule.aspx" />
     <Content Include="Login.aspx" />
@@ -84,8 +85,10 @@
     <Content Include="schedule.aspx" />
     <Content Include="Home.html" />
     <Content Include="StudentProfile.aspx" />
+    <Content Include="TheoryOfComputations.aspx" />
     <Content Include="UploadAssignmnet.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebDesgin.aspx" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +106,13 @@
     <Compile Include="Attendance.aspx.designer.cs">
       <DependentUpon>Attendance.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ComputerArchitecture.aspx.cs">
+      <DependentUpon>ComputerArchitecture.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComputerArchitecture.aspx.designer.cs">
+      <DependentUpon>ComputerArchitecture.aspx</DependentUpon>
+    </Compile>
     <Compile Include="courses.aspx.cs">
       <DependentUpon>courses.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -116,6 +126,13 @@
     </Compile>
     <Compile Include="EditStudentProfile.aspx.designer.cs">
       <DependentUpon>EditStudentProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="OS2.aspx.cs">
+      <DependentUpon>OS2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OS2.aspx.designer.cs">
+      <DependentUpon>OS2.aspx</DependentUpon>
     </Compile>
     <Compile Include="ShowSchedule.aspx.cs">
       <DependentUpon>ShowSchedule.aspx</DependentUpon>
@@ -160,12 +177,26 @@
     <Compile Include="StudentProfile.aspx.designer.cs">
       <DependentUpon>StudentProfile.aspx</DependentUpon>
     </Compile>
+    <Compile Include="TheoryOfComputations.aspx.cs">
+      <DependentUpon>TheoryOfComputations.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TheoryOfComputations.aspx.designer.cs">
+      <DependentUpon>TheoryOfComputations.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UploadAssignmnet.aspx.cs">
       <DependentUpon>UploadAssignmnet.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UploadAssignmnet.aspx.designer.cs">
       <DependentUpon>UploadAssignmnet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebDesgin.aspx.cs">
+      <DependentUpon>WebDesgin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebDesgin.aspx.designer.cs">
+      <DependentUpon>WebDesgin.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
